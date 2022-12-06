@@ -6,5 +6,5 @@ class FxConfigs {
   static FxConfigs get instance => _instance;
 
   /*Fx App Configs*/
-  final lifecycleObserver = defaultLifecycleObserver;
+  static final lifecycleObserver = defaultLifecycleObserver;
 }
